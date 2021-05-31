@@ -113,7 +113,7 @@ class CheckInfo():
 
         self.canvas = Canvas(frame, width=626, height=626)
 
-        self.image = Image.open("C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+        self.image = Image.open("C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
                                 "wall_background_mauve12.jpg")
         self.image = ImageTk.PhotoImage(self.image)
 

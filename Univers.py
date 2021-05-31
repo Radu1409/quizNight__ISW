@@ -59,7 +59,7 @@ class StartPage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
 
-        self.image1 = Image.open("C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+        self.image1 = Image.open("C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
                                  "quiz_univers\\wallpaper_univers.jpg")
         self.image1 = self.image1.resize((1200, 700))
 
@@ -113,12 +113,12 @@ class PageOne(tk.Frame):
         tk.Frame.__init__(self, parent)
         controller.title('Univers Quiz')
         self.image1 = Image.open(
-            "C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+            "C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
             "quiz_univers\\wallpaper_univers7.jpg")
         self.image1 = self.image1.resize((1200, 700))
         self.gaussImage = self.image1.filter(ImageFilter.GaussianBlur(0))
         self.gaussImage = self.gaussImage.resize((1200, 700))
-        self.grasSat = Image.open("C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\"
+        self.grasSat = Image.open("C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\"
                                   "Python_images\\Choose\\quiz_univers\\wallpaper_univers.jpg")
         self.grasSat = self.grasSat.resize((500,350))
 
@@ -186,7 +186,7 @@ class PageTwo(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.image1 = Image.open(
-            "C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+            "C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
             "quiz_univers\\wallpaper_univers7.jpg")
         self.image1 = self.image1.resize((1200, 700))
 
@@ -206,7 +206,7 @@ class PageTwo(tk.Frame):
                                                      self.gaussImage.size[1] - self.arrowLeft_image.size[1] - 20),
                                                      self.arrowLeft_image.convert('RGBA'))
 
-        self.grasSat = Image.open("C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+        self.grasSat = Image.open("C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
                                   "quiz_univers\\quiz_univers2.jpg")
         self.grasSat = self.grasSat.resize((550, 350))
         self.grasSat_brd = ImageOps.expand(self.grasSat, border=1, fill='black')
@@ -250,7 +250,7 @@ class PageThree(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.image1 = Image.open(
-            "C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+            "C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
             "quiz_univers\\wallpaper_univers7.jpg")
         self.image1 = self.image1.resize((1200, 700))
         self.gaussImage = self.image1.filter(ImageFilter.GaussianBlur(5))
@@ -268,7 +268,7 @@ class PageThree(tk.Frame):
                                                      self.gaussImage.size[1] - self.arrowLeft_image.size[1] - 20),
                               self.arrowLeft_image.convert('RGBA'))
 
-        self.img = Image.open("C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+        self.img = Image.open("C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
                               "quiz_univers\\quiz_univers3.jpg")
         self.img = self.img.resize((500,300))
         self.img_border = ImageOps.expand(self.img, border=2, fill='black')
@@ -326,7 +326,7 @@ class PageFour(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.image1 = Image.open(
-            "C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+            "C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
             "quiz_univers\\wallpaper_univers7.jpg")
         self.image1 = self.image1.resize((1200, 700))
         self.gaussImage = self.image1.filter(ImageFilter.GaussianBlur(5))
@@ -343,7 +343,7 @@ class PageFour(tk.Frame):
         self.gaussImage.paste(self.arrowLeft_image, (20,
                                                      self.gaussImage.size[1] - self.arrowLeft_image.size[1] - 20),
                               self.arrowLeft_image.convert('RGBA'))
-        self.img = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\'
+        self.img = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\'
                               'quiz_univers\\wallpaper_univers2.jpg')
         self.img = self.img.resize((500, 300))
         self.img_border = ImageOps.expand(self.img, border=2, fill='black')
@@ -390,7 +390,7 @@ class PageFive(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.image1 = Image.open(
-            "C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+            "C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
             "quiz_univers\\wallpaper_univers7.jpg")
         self.image1 = self.image1.resize((1200, 700))
         self.gaussImage = self.image1.filter(ImageFilter.GaussianBlur(5))
@@ -407,7 +407,7 @@ class PageFive(tk.Frame):
         self.gaussImage.paste(self.arrowLeft_image, (20,
                                                      self.gaussImage.size[1] - self.arrowLeft_image.size[1] - 20),
                               self.arrowLeft_image.convert('RGBA'))
-        self.img = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\'
+        self.img = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\'
                               'quiz_univers\\quiz_univers4.jpg')
         self.img = self.img.resize((500, 300))
         self.img_border = ImageOps.expand(self.img, border=2, fill='black')
@@ -462,7 +462,7 @@ class PageSix(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.image1 = Image.open(
-            "C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+            "C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
             "quiz_univers\\wallpaper_univers7.jpg")
         self.image1 = self.image1.resize((1200, 700))
 
@@ -474,7 +474,7 @@ class PageSix(tk.Frame):
         self.arrowLeft_image = self.arrowLeft_image.resize((50, 50))
         self.arrowRight_image = self.arrowRight_image.resize((50, 50))
 
-        self.img = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\'
+        self.img = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\'
                               'quiz\\quiz_fitness7.jpg')
         self.img = self.img.resize((500, 300))
         self.img_brd = ImageOps.expand(self.img, border=2, fill='black')
@@ -537,7 +537,7 @@ class PageSeven(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.image1 = Image.open(
-            "C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+            "C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
             "quiz_univers\\wallpaper_univers7.jpg")
         self.image1 = self.image1.resize((1200, 700))
 
@@ -549,7 +549,7 @@ class PageSeven(tk.Frame):
         self.arrowLeft_image = self.arrowLeft_image.resize((50, 50))
         self.arrowRight_image = self.arrowRight_image.resize((50, 50))
 
-        self.img = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\'
+        self.img = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\'
                               'quiz\\quiz_fitness7.jpg')
         self.img = self.img.resize((500, 300))
         self.img_brd = ImageOps.expand(self.img, border=2, fill='black')
@@ -615,7 +615,7 @@ class PageEight(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.image1 = Image.open(
-            "C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+            "C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
             "quiz_univers\\wallpaper_univers7.jpg")
         self.image1 = self.image1.resize((1200, 700))
 
@@ -635,7 +635,7 @@ class PageEight(tk.Frame):
                                                      self.gaussImage.size[1] - self.arrowLeft_image.size[1] - 20),
                                                      self.arrowLeft_image.convert('RGBA'))
 
-        self.grasSat = Image.open("C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+        self.grasSat = Image.open("C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
                                   "quiz_univers\\quiz_univers5.jpg")
         self.grasSat = self.grasSat.resize((550, 350))
         self.grasSat_brd = ImageOps.expand(self.grasSat, border=1, fill='black')
@@ -680,7 +680,7 @@ class PageNine(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.image1 = Image.open(
-            "C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+            "C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
             "quiz_univers\\wallpaper_univers7.jpg")
         self.image1 = self.image1.resize((1200, 700))
         self.gaussImage = self.image1.filter(ImageFilter.GaussianBlur(5))
@@ -697,7 +697,7 @@ class PageNine(tk.Frame):
         self.gaussImage.paste(self.arrowLeft_image, (20,
                                                      self.gaussImage.size[1] - self.arrowLeft_image.size[1] - 20),
                               self.arrowLeft_image.convert('RGBA'))
-        self.img = Image.open("C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+        self.img = Image.open("C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
                               "quiz_univers\\quiz_univers6.jpg")
         self.img = self.img.resize((500, 300))
         self.img_border = ImageOps.expand(self.img, border=2, fill='black')
@@ -745,7 +745,7 @@ class PageTen(tk.Frame):
         tk.Frame.__init__(self, parent)
 
         self.image1 = Image.open(
-            "C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+            "C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
             "quiz_univers\\wallpaper_univers7.jpg")
         self.image1 = self.image1.resize((1200, 700))
         self.controller = controller

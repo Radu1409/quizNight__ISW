@@ -189,7 +189,7 @@ class CheckScore:
         self.button_check.pack()
         self.button_try.pack()
         self.button_close.pack()
-        self.image = Image.open("C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\"
+        self.image = Image.open("C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\"
                                 "wall_background_mauve.jpg")
 
         self.master.protocol("WM_DELETE_WINDOW", lambda: [close_wind_reset_score(self.master, dict), new.destroy()])

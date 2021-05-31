@@ -22,35 +22,35 @@ class Choose:
         self.image = PhotoImage(file='New folder/QuizGamePython.png')
         self.master.iconphoto(True, self.image)
 
-        self.image1 = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\'
+        self.image1 = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\'
                                  'wall_background_mauve_light.jpg')
         self.image1 = self.image1.resize((900, 570))
 
-        self.image2 = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\'
+        self.image2 = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\'
                                  'simpson_choose.png')
         self.image2 = self.image2.resize((150, 150))
 
-        self.image3 = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\'
+        self.image3 = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\'
                                  'Choose_istorie\\wallpaper_istorie3.jpg')
         self.image3 = self.image3.resize((180, 140), Image.ANTIALIAS)
         self.image3 = ImageTk.PhotoImage(self.image3)
 
-        self.image4 = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\'
+        self.image4 = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\'
                                  'Choose_Univers\\wallpaper_Univers3.jpg')
         self.image4 = self.image4.resize((180, 140), Image.ANTIALIAS)
         self.image4 = ImageTk.PhotoImage(self.image4)
 
-        self.image5 = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\'
+        self.image5 = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\'
                                  'Choose_Geografie\\wallpaper_Geografie.jpg')
         self.image5 = self.image5.resize((180, 140), Image.ANTIALIAS)
         self.image5 = ImageTk.PhotoImage(self.image5)
 
-        self.image6 = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\'
+        self.image6 = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\'
                                  'Choose_IT\\wallpaper_IT3.jpg')
         self.image6 = self.image6.resize((180, 140), Image.ANTIALIAS)
         self.image6 = ImageTk.PhotoImage(self.image6)
 
-        self.image7 = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Choose\\'
+        self.image7 = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Choose\\'
                                  'Choose_Fitness\\wallpaper_fitness2.jpg')
         self.image7 = self.image7.resize((180, 140), Image.ANTIALIAS)
         self.image7 = ImageTk.PhotoImage(self.image7)

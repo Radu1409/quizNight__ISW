@@ -6,6 +6,7 @@ import tkinter
 import IdPass
 
 
+
 count = -1
 counts = -1
 num1 = 0
@@ -49,7 +50,7 @@ def toLogin():
 
     screen1 = Toplevel(window)
     screen1.title("Autentificare")
-    image1 = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\Login\\Login1.jpg')
+    image1 = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\Login\\Login1.jpg')
     image1 = image1.rotate(180)
     image1 = ImageTk.PhotoImage(image1)
 
@@ -124,7 +125,7 @@ def toLogin():
 
     entryUser.focus()
 
-    image2 = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\submit_ButtonNew.png')
+    image2 = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\submit_ButtonNew.png')
     image2 = image2.resize((300, 220), Image.ANTIALIAS)
     image2 = ImageTk.PhotoImage(image2)
 
@@ -291,31 +292,31 @@ button.config(width = 13)
 button.config(font=("Helvetica", 10, 'bold'), command=exitWin)
 button.place(x=245, y=485)
 
-openImage = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\icon_FileMenu\\open.png')
+openImage = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\icon_FileMenu\\open.png')
 openImage = openImage.resize((20, 20))
 openImage = ImageTk.PhotoImage(openImage)
 
-saveImage = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\icon_FileMenu\\savee.png')
+saveImage = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\icon_FileMenu\\savee.png')
 saveImage = saveImage.resize((20, 20))
 saveImage = ImageTk.PhotoImage(saveImage)
 
-exitImage = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\icon_FileMenu\\exiit.png')
+exitImage = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\icon_FileMenu\\exiit.png')
 exitImage = exitImage.resize((20, 20))
 exitImage = ImageTk.PhotoImage(exitImage)
 
-cutImage = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\icon_FileMenu\\cutt.png')
+cutImage = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\icon_FileMenu\\cutt.png')
 cutImage = cutImage.resize((20, 20))
 cutImage = ImageTk.PhotoImage(cutImage)
 
-copyImage = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\icon_FileMenu\\copy.png')
+copyImage = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\icon_FileMenu\\copy.png')
 copyImage = copyImage.resize((20, 20))
 copyImage = ImageTk.PhotoImage(copyImage)
 
-pasteImage = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\icon_FileMenu\\pastee.png')
+pasteImage = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\icon_FileMenu\\pastee.png')
 pasteImage = pasteImage.resize((20, 20))
 pasteImage = ImageTk.PhotoImage(pasteImage)
 
-scoreImage = Image.open('C:\\Users\\Lenovo\\PycharmProjects\\Proiect_Python\\Python_images\\icon_FileMenu\\score.png')
+scoreImage = Image.open('C:\\Users\\Lenovo\\Documents\\Proiecte_CV\\Proiect_CV_cu_MySQL\\Proiect_Python\\Python_images\\icon_FileMenu\\score.png')
 scoreImage = scoreImage.resize((20, 20))
 scoreImage = ImageTk.PhotoImage(scoreImage)
 
